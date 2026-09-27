@@ -1,0 +1,80 @@
+Run hostname and display output.
+Run uptime and display output.
+Get current logged-in user using whoami.
+Display current date using date.
+List files using ls -l.
+Display current directory using pwd.
+Check disk usage using df -h.
+Check memory usage using free -m.
+Display CPU information using lscpu.
+Display OS information using uname -a.
+Display kernel version.
+Check IP address using ip addr.
+Check routing table using ip route.
+Display mounted filesystems using mount.
+Display running processes using ps -ef.
+Search a process using ps | grep.
+Count running processes.
+Kill a process using kill.
+Check service status using systemctl status.
+Start a service using systemctl start.
+Stop a service using systemctl stop.
+Restart a service using systemctl restart.
+List enabled services.
+List failed services.
+Display system boot time using uptime -s.
+Show open ports using ss -tulpn.
+Check if a host is reachable using ping.
+Perform DNS lookup using nslookup.
+Perform DNS lookup using dig.
+Test website connectivity using curl.
+Download a file using wget.
+Run a shell script from Python.
+Execute multiple Linux commands sequentially.
+Capture stdout from a command.
+Capture stderr from a command.
+Check return code of a command.
+Redirect command output to a file.
+Run command with timeout.
+Search logs using grep.
+Count lines in a file using wc -l.
+Find files using find.
+Search text inside files recursively.
+Compress files using tar.
+Extract tar files.
+Create zip archives.
+Display cron jobs using crontab -l.
+Check active network connections.
+Check SSL certificate details using openssl.
+Monitor Splunk service status.
+Create a Linux health-check report (CPU, Memory, Disk, Services, Network) using multiple subprocess calls.
+
+
+DevOps/Linux Real-World Examples
+Service health checker
+Splunk forwarder status checker
+OpenShift CLI wrapper (oc)
+Kubernetes CLI wrapper (kubectl)
+Jenkins job trigger script
+SSL certificate expiry checker
+Log search utility
+Server inventory collector
+Disk cleanup automation
+Process monitoring tool
+Most Important subprocess APIs
+subprocess.run()
+subprocess.check_output()
+subprocess.Popen()
+subprocess.call()
+subprocess.PIPE
+subprocess.DEVNULL
+subprocess.CompletedProcess
+
+
+For your Linux/Splunk/OpenShift work, focus first on:
+
+subprocess.run()
+capture_output=True
+text=True
+check=True
+Popen() for long-running commands.
