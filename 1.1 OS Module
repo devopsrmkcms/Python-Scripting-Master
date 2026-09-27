@@ -1,0 +1,65 @@
+Print current working directory.
+Change current working directory.
+List all files in a directory.
+List only directories.
+List only files.
+Create a new directory.
+Create nested directories.
+Remove an empty directory.
+Rename a file.
+Rename a directory.
+Delete a file.
+Check if a file exists.
+Check if a directory exists.
+Check whether a path is a file.
+Check whether a path is a directory.
+Get absolute path of a file.
+Join path components.
+Split a path into directory and filename.
+Extract filename from a full path.
+Extract file extension.
+Find size of a file.
+Find size of all files in a directory.
+Count files in a directory.
+Count directories in a directory.
+Count total files recursively.
+Find all .log files.
+Find all .txt files.
+Find largest file in a directory.
+Find smallest file in a directory.
+Find files larger than 100 MB.
+Find empty files.
+Find empty directories.
+List all hidden files.
+Traverse directories using os.walk().
+Print complete directory tree.
+Search for a file by name.
+Search for a directory by name.
+Display all environment variables.
+Display specific environment variable (PATH, HOME, USER).
+Create a file if it does not exist.
+Get current process ID (PID).
+Get parent process ID (PPID).
+Display system information using os.uname().
+Run a Linux command using os.system().
+Run df -h and save output to a file using os.system().
+Generate a disk usage report of a directory.
+Find duplicate filenames (same name, different paths).
+Backup a directory structure (create same folders elsewhere).
+Find recently modified files.
+Build a simple Linux inventory script (hostname, user, cwd, PID, environment variables, files count).
+
+
+Most Useful for DevOps/Linux Interviews
+File existence checker
+Recursive log finder
+Directory size calculator
+Environment variable reader
+Process information script
+Log cleanup script
+Disk usage report
+File extension counter
+Empty file detector
+Directory tree generator
+
+os module function: getcwd(), chdir(), listdir(), mkdir(), makedirs(), remove(), rename(), walk(), path.*, environ, system(), getpid(), and uname().
