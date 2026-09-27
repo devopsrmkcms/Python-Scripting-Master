@@ -1,0 +1,64 @@
+Print all command-line arguments.
+Count the number of command-line arguments.
+Print the script name.
+Accept username as a command-line argument.
+Accept two numbers and print their sum.
+Accept two numbers and print the larger number.
+Build a simple calculator using arguments.
+Reverse a string passed as an argument.
+Check whether an argument is a palindrome.
+Convert an argument to uppercase.
+Convert an argument to lowercase.
+Count vowels in an argument.
+Count words passed through arguments.
+Print arguments one per line.
+Print arguments with index numbers.
+Validate the required number of arguments.
+Display a usage/help message if arguments are missing.
+Exit the script with status code 0.
+Exit the script with status code 1 on error.
+Print Python version.
+Check if Python version is 3.x.
+Print sys.platform.
+Detect Linux, Windows, or macOS.
+Print the Python executable path.
+Print sys.path.
+Display all imported module names.
+Print the maximum integer size (sys.maxsize).
+Show Python byte order (sys.byteorder).
+Print default string encoding.
+Print recursion limit.
+Set a new recursion limit.
+Demonstrate recursion depth reached.
+Print command-line arguments in reverse order.
+Search for a value in command-line arguments.
+Remove duplicate command-line arguments.
+Sort command-line arguments alphabetically.
+Count occurrences of a specific argument.
+Join all command-line arguments into a sentence.
+Calculate average of numbers passed as arguments.
+Find the maximum number passed as arguments.
+Find the minimum number passed as arguments.
+Check whether a passed number is even or odd.
+Check whether a passed number is prime.
+Print all arguments as a numbered menu.
+Redirect output to stderr using sys.stderr.
+Write custom log messages to stderr.
+Read user input from sys.stdin.
+Count lines entered through sys.stdin.
+Create a simple command-line password validator.
+Create a mini command-line tool with subcommands (add, delete, list) using sys.argv.
+
+Most Useful sys Module Functions/Attributes for Interviews
+sys.argv
+sys.exit()
+sys.version
+sys.platform
+sys.path
+sys.maxsize
+sys.executable
+sys.stdin
+sys.stdout
+sys.stderr
+sys.getrecursionlimit()
+sys.setrecursionlimit()
