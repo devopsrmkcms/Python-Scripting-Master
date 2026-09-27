@@ -1,1 +1,213 @@
+Core Python (Must Master)
+1. os
+2. sys
+3. pathlib
+4. shutil
+5. subprocess
+6. argparse
+7. logging
+8. json
+9. csv
+10. configparser
+11. re
+12. glob
+13. time
+14. datetime
+15. collections
+16. itertools
+17. functools
+18. secrets
+19. hashlib
+20. hmac
+21. base64
+22. uuid
+23. tempfile
+24. zipfile
+25. tarfile
+26. threading
+27. multiprocessing
+28. concurrent.futures
+29. queue
+30. contextlib
 
+Networking & Security
+31. socket
+32. ssl
+33. urllib
+34. http.client
+35. ipaddress
+36. dnspython
+37. cryptography
+38. pyOpenSSL
+39. paramiko
+
+API & Web Automation
+40. requests
+41. aiohttp
+42. fastapi
+43. flask
+44. pydantic
+
+Data Processing
+45. yaml (PyYAML)
+46. toml
+47. xml.etree.ElementTree
+48. pandas
+49. openpyxl
+50. jmespath
+
+System Monitoring & Automation
+51. psutil
+52. schedule
+53. croniter
+54. watchdog
+
+Cloud Automation
+55. boto3
+56. azure-identity
+57. azure-mgmt-*
+58. google-cloud-*
+
+Containers & Platform Engineering
+59. docker
+60. kubernetes
+61. openshift
+62. helm (Python integrations)
+
+Database Automation
+63. sqlite3
+64. psycopg2
+65. sqlalchemy
+66. pymongo
+67. redis
+
+Testing & Quality
+68. unittest
+69. pytest
+70. pytest-mock
+71. coverage
+72. tox
+
+CLI Development
+73. click
+74. rich
+75. typer
+
+DevOps & Configuration
+76. jinja2
+77. ansible-runner
+
+Async Programming
+78. asyncio
+
+Observability
+79. loguru
+80. prometheus-client
+
+Advanced Python
+81. dataclasses
+82. typing
+83. enum
+84. abc
+85. inspect
+86. importlib
+87. traceback
+88. cProfile
+89. pdb
+
+Recommended Learning Order
+
+Phase 1
+os
+sys
+pathlib
+shutil
+subprocess
+argparse
+logging
+
+Phase 2
+json
+csv
+yaml
+configparser
+re
+glob
+
+Phase 3
+time
+datetime
+collections
+itertools
+functools
+
+Phase 4
+socket
+ssl
+requests
+urllib
+hashlib
+cryptography
+
+Phase 5
+threading
+multiprocessing
+concurrent.futures
+asyncio
+
+Phase 6
+psutil
+schedule
+croniter
+watchdog
+
+Phase 7
+paramiko
+jinja2
+sqlite3
+sqlalchemy
+
+Phase 8
+pandas
+openpyxl
+xml
+jmespath
+
+Phase 9
+boto3
+azure-identity
+azure-mgmt-*
+google-cloud-*
+
+Phase 10
+docker
+kubernetes
+openshift
+
+Phase 11
+fastapi
+flask
+pydantic
+
+Phase 12
+pytest
+unittest
+coverage
+tox
+
+Phase 13
+click
+typer
+rich
+loguru
+
+Phase 14 (Master Level)
+dataclasses
+typing
+inspect
+importlib
+traceback
+cProfile
+pdb
+abc
+enum
