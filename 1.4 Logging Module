@@ -1,0 +1,33 @@
+Beginner Level
+Log application startup and shutdown.
+Log user login attempts.
+Log calculator operations (add, subtract, multiply, divide).
+Log file creation and deletion events.
+Log program execution time.
+Log command-line arguments passed to a script.
+Log successful and failed number conversions.
+Log exceptions using try-except.
+Log current date and time every time the script runs.
+Log directory contents using the os module.
+Intermediate Level
+Log disk usage using df -h.
+Log memory usage using free -m.
+Log CPU usage using psutil.
+Log process status using subprocess.
+Log ping results for multiple hosts.
+Log file copy operations.
+Log file search results.
+Log user account information from /etc/passwd.
+Log service status (systemctl status sshd).
+Log cron job execution results.
+DevOps-Oriented Programs
+Kubernetes pod status checker with logging.
+Docker container health monitor with logging.
+AWS EC2 inventory collection and logging.
+Jenkins build status monitor.
+Nagios check automation with logging.
+SSL certificate expiry checker with logging.
+Server health checker (CPU, Memory, Disk) with logging.
+Website uptime monitoring and logging.
+Backup script with success/failure logging.
+Log analyzer that reads a log file and generates statistics.
