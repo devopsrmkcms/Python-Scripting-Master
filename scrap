@@ -1,0 +1,84 @@
+50 Small Python Programs Using json Module
+Beginner Level
+Read a JSON file and display data.
+Write a dictionary to a JSON file.
+Convert a Python dictionary to JSON.
+Convert JSON string to Python dictionary.
+Pretty-print JSON data.
+Display all keys from a JSON object.
+Display all values from a JSON object.
+Check whether a key exists in JSON.
+Add a new key to JSON data.
+Update an existing JSON key.
+Delete a key from JSON data.
+Count the number of keys in JSON.
+Store student information in JSON.
+Store employee information in JSON.
+Store server details in JSON.
+Create a product inventory JSON file.
+Save user input to JSON.
+Read and display user data from JSON.
+Build a simple JSON address book.
+Create a JSON-based phone directory.
+Intermediate Level
+Merge two JSON files.
+Compare two JSON files.
+Validate JSON syntax.
+Search for a value inside JSON.
+Find duplicate entries in JSON.
+Sort JSON records by name.
+Sort JSON records by age.
+Filter JSON records by department.
+Convert JSON data to a list.
+Convert nested JSON to a flat dictionary.
+Count users in a JSON file.
+Find the highest salary from JSON data.
+Find the lowest salary from JSON data.
+Calculate average marks from JSON.
+Generate employee reports from JSON.
+Generate system inventory report from JSON.
+Read multiple JSON files from a directory.
+Merge multiple JSON configuration files.
+Backup JSON file before modification.
+Log JSON file changes using logging module.
+Advanced / DevOps-Oriented
+Store API responses in a JSON file.
+Read API configuration from JSON.
+Build a JSON-based configuration manager.
+Validate required fields in configuration JSON.
+Create a JSON-driven server monitoring tool.
+Create a JSON-based user authentication system.
+Build a JSON inventory management application.
+Build a JSON-driven deployment configuration reader.
+Parse Kubernetes/OpenShift resource JSON files.
+Build a complete server health dashboard using JSON, logging, argparse, and functions.
+Recommended Learning Order
+
+Week 1
+
+Programs 1-20
+
+Week 2
+
+Programs 21-35
+
+Week 3
+
+Programs 36-45
+
+Week 4
+
+Programs 46-50
+
+For a DevOps engineer, the most important JSON programs are:
+
+Read/Write JSON files
+Update JSON values
+Merge JSON files
+Validate JSON syntax
+Store API responses
+Configuration manager
+Parse Kubernetes/OpenShift JSON
+Server inventory management
+Deployment configuration reader
+Monitoring dashboard using JSON + logging + argparse
