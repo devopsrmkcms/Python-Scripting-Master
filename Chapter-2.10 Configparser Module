@@ -1,0 +1,101 @@
+
+1. Read an INI File
+Program: Write a Python program using the configparser module that reads an existing app.ini file and displays all configuration 
+sections available in the file.
+
+Methods Covered:
+config.read()
+config.sections()
+
+2. Check Whether a Section Exists
+Program:Write a Python program using the configparser module that reads an existing app.ini file, checks whether a section named 
+database exists, and prints an appropriate message.
+
+Methods Covered:
+config.read()
+config.has_section()
+
+3. Check Whether a Key Exists
+Program: Write a Python program using the configparser module that reads an existing app.ini file, checks whether the key host 
+exists in the database section, and prints the result.
+
+Methods Covered:
+config.read()
+config.has_option()
+
+4. Read a Specific Configuration Value
+Program: Write a Python program using the configparser module that reads an existing app.ini file and displays the value of the 
+host key from the database section.
+
+Methods Covered:
+config.read()
+config.get()
+
+5. Add a New Section
+Program: Write a Python program using the configparser module that reads an existing app.ini file, adds a new section named 
+application, saves the changes, and prints a success message.
+
+Methods Covered:
+config.read()
+config.add_section()
+config.write()
+
+6. Add a New Key and Value
+
+Program:
+
+Write a Python program using the configparser module that reads an existing app.ini file, adds a key named version with value 1.0 to the application section, saves the file, and prints a success message.
+
+Methods Covered:
+config.read()
+config.set()
+config.write()
+
+7. Update an Existing Value
+Program: Write a Python program using the configparser module that reads an existing app.ini file, changes the value of the host key 
+in the database section to dbserver, writes the changes back to the file, and displays a confirmation message.
+
+Methods Covered:
+config.read()
+config.set()
+config.write()
+
+8. Remove a Key from a Section
+Program: Write a Python program using the configparser module that reads an existing app.ini file, removes the key user from the database section, saves the updated file, and prints a success message.
+
+Methods Covered:
+config.read()
+config.remove_option()
+config.write()
+
+9. Remove an Entire Section
+Program: Write a Python program using the configparser module that reads an existing app.ini file, removes the server section completely, saves the changes, and displays a confirmation message.
+
+Methods Covered:
+config.read()
+config.remove_section()
+config.write()
+
+10. Create a Complete Configuration File
+Program: Write a Python program using the configparser module that creates a new file named config.ini, adds two sections named database and server, adds appropriate keys and values to each section, writes the configuration to disk, and prints a success message.
+
+Methods Covered:
+
+config.add_section()
+config.set()
+config.write()
+
+
+Complete Learning Order
+Read INI file (read)
+List sections (sections)
+Check section (has_section)
+Check key (has_option)
+Read value (get)
+Add section (add_section)
+Add/Update value (set)
+Remove key (remove_option)
+Remove section (remove_section)
+Save changes (write)
+
+These 10 programs cover nearly all day-to-day configparser usage for DevOps, Linux administration, and automation scripts.
