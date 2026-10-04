@@ -1,45 +1,28 @@
-Core Python (Must Master)
-1. os
-2. sys
-3. pathlib
-4. shutil
-5. subprocess
-6. argparse
-7. logging
-8. json
-9. request
-10. configparser
-11. re
-12. glob
-13. time
-14. datetime
-15. socket
-16. ssl
-17. urllib
-18. secrets
-19. http.client
-20. hmac
-21. base64
-22. uuid
-23. tempfile
-24. zipfile
-25. tarfile
-26. threading
-27. multiprocessing
-28. concurrent.futures
-29. queue
-30. contextlib
+1 os
+2 sys
+3 pathlib
+4 shutil
+5 subprocess
+6 argparse
+7 logging
+8 json
+9 requests
+10 configparser
+11 re
+12 glob
+13 time
+14 datetime
+15 socket
+16 ssl
+17 urllib
+18 psutil
+19 paramiko
+20 jinja2
+
+
 
 Networking & Security
-31. socket
-32. ssl
-33. urllib
-34. http.client
-35. ipaddress
-36. dnspython
-37. cryptography
-38. pyOpenSSL
-39. paramiko
+
 
 API & Web Automation
 40. requests
@@ -47,14 +30,6 @@ API & Web Automation
 42. fastapi
 43. flask
 44. pydantic
-
-Data Processing
-45. yaml (PyYAML)
-46. toml
-47. xml.etree.ElementTree
-48. pandas
-49. openpyxl
-50. jmespath
 
 System Monitoring & Automation
 51. psutil
@@ -73,47 +48,6 @@ Containers & Platform Engineering
 60. kubernetes
 61. openshift
 62. helm (Python integrations)
-
-Database Automation
-63. sqlite3
-64. psycopg2
-65. sqlalchemy
-66. pymongo
-67. redis
-
-Testing & Quality
-68. unittest
-69. pytest
-70. pytest-mock
-71. coverage
-72. tox
-
-CLI Development
-73. click
-74. rich
-75. typer
-
-DevOps & Configuration
-76. jinja2
-77. ansible-runner
-
-Async Programming
-78. asyncio
-
-Observability
-79. loguru
-80. prometheus-client
-
-Advanced Python
-81. dataclasses
-82. typing
-83. enum
-84. abc
-85. inspect
-86. importlib
-87. traceback
-88. cProfile
-89. pdb
 
 Recommended Learning Order
 
