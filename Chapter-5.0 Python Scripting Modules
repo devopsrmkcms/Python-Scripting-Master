@@ -1,57 +1,3 @@
-1 os
-2 sys
-3 pathlib
-4 shutil
-5 subprocess
-6 argparse
-7 logging
-8 json
-9 requests
-10 configparser
-11 re
-12 glob
-13 time
-14 datetime
-15 socket
-16 ssl
-17 urllib
-18 psutil
-19 paramiko
-20 jinja2
-
-
-
-Networking & Security
-
-
-API & Web Automation
-40. requests
-41. aiohttp
-42. fastapi
-43. flask
-44. pydantic
-
-System Monitoring & Automation
-51. psutil
-52. schedule
-53. croniter
-54. watchdog
-
-Cloud Automation
-55. boto3
-56. azure-identity
-57. azure-mgmt-*
-58. google-cloud-*
-
-Containers & Platform Engineering
-59. docker
-60. kubernetes
-61. openshift
-62. helm (Python integrations)
-
-Recommended Learning Order
-
-Phase 1
 os
 sys
 pathlib
@@ -59,89 +5,26 @@ shutil
 subprocess
 argparse
 logging
-
-Phase 2
 json
-csv
-yaml
+requests
 configparser
 re
 glob
-
-Phase 3
 time
 datetime
+socket
+ssl
+urllib
+psutil
+paramiko
+jinja2
+csv
+yaml (PyYAML)
 collections
 itertools
 functools
-
-Phase 4
-socket
-ssl
-requests
-urllib
 hashlib
-cryptography
-
-Phase 5
 threading
 multiprocessing
-concurrent.futures
 asyncio
-
-Phase 6
-psutil
-schedule
-croniter
-watchdog
-
-Phase 7
-paramiko
-jinja2
-sqlite3
-sqlalchemy
-
-Phase 8
-pandas
-openpyxl
-xml
-jmespath
-
-Phase 9
-boto3
-azure-identity
-azure-mgmt-*
-google-cloud-*
-
-Phase 10
-docker
-kubernetes
-openshift
-
-Phase 11
-fastapi
-flask
-pydantic
-
-Phase 12
-pytest
-unittest
-coverage
-tox
-
-Phase 13
-click
-typer
-rich
-loguru
-
-Phase 14 (Master Level)
-dataclasses
-typing
-inspect
-importlib
-traceback
-cProfile
-pdb
-abc
-enum
+concurrent.futures
