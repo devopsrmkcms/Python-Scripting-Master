@@ -85,6 +85,83 @@ config.add_section()
 config.set()
 config.write()
 
+11. Display All Keys and Values in a Section
+Program: Write a Python program using the configparser module that reads an existing app.ini file, displays all keys and values from the database section, and prints them in key = value format.
+
+Methods Covered:
+config.read()
+config.items()
+
+12. Count Total Sections
+Program: Write a Python program using the configparser module that reads an existing app.ini file, counts the total number of sections available, and displays the count.
+
+Methods Covered:
+config.read()
+config.sections()
+
+13. Display All Section Names
+Program: Write a Python program using the configparser module that reads an existing app.ini file and displays all section names one by one.
+
+Methods Covered:
+config.read()
+config.sections()
+
+14. Read an Integer Value
+Program: Write a Python program using the configparser module that reads the port value from the database section as an integer and displays it.
+
+Methods Covered:
+config.read()
+config.getint()
+
+15. Read a Boolean Value
+Program: Write a Python program using the configparser module that reads the debug value from the application section as a Boolean and displays the result.
+
+Methods Covered:
+config.read()
+config.getboolean()
+
+16. Rename a Key by Creating a New Key
+Program: Write a Python program using the configparser module that reads an existing app.ini file, copies the value of the host key to a new key named hostname, removes the old key, saves the file, and displays a success message.
+
+Methods Covered:
+config.read()
+config.get()
+config.set()
+config.remove_option()
+config.write()
+
+17. Create a Backup Configuration File
+Program: Write a Python program using the configparser module that reads an existing app.ini file and writes the same configuration to a new file named backup.ini.
+
+Methods Covered:
+config.read()
+config.write()
+
+18. Add Multiple Keys to a Section
+Program: Write a Python program using the configparser module that reads an existing app.ini file, adds the keys owner, department, and location to the application section, saves the file, and displays a confirmation message.
+
+Methods Covered:
+config.read()
+config.set()
+config.write()
+
+19. Check and Create a Section If Missing
+Program: Write a Python program using the configparser module that reads an existing app.ini file, checks whether a section named security exists, and if it does not exist, creates it and saves the file.
+
+Methods Covered:
+config.read()
+config.has_section()
+config.add_section()
+config.write()
+
+20. Display Complete Configuration
+Program: Write a Python program using the configparser module that reads an existing app.ini file and displays every section along with all keys and values contained in each section.
+
+Methods Covered:
+config.read()
+config.sections()
+config.items()
+
 
 Complete Learning Order
 Read INI file (read)
