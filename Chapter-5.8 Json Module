@@ -1,0 +1,91 @@
+11. Convert Python Dictionary to JSON String
+
+Program: Write a Python program using the json module that creates a Python dictionary containing employee details, converts it to a JSON string, and displays the result.
+
+Methods Covered:
+
+json.dumps()
+
+12. Convert JSON String to Python Dictionary
+
+Program: Write a Python program using the json module that reads a JSON string containing employee information, converts it into a Python dictionary, and displays all key-value pairs.
+
+Methods Covered:
+
+json.loads()
+
+13. Write JSON Data to a File
+
+Program: Write a Python program using the json module that stores student information in a dictionary and writes the data to a file named student.json.
+
+Methods Covered:
+
+json.dump()
+
+14. Read JSON Data from a File
+
+Program: Write a Python program using the json module that reads data from student.json and displays all information.
+
+Methods Covered:
+
+json.load()
+
+15. Pretty Print JSON Data
+
+Program: Write a Python program using the json module that converts a Python dictionary into a neatly formatted JSON string with indentation and displays it.
+
+Methods Covered:
+
+json.dumps()
+indent
+
+16. Check Whether a Key Exists in JSON
+
+Program: Write a Python program using the json module that reads a JSON object containing employee information, checks whether the key salary exists, and prints an appropriate message.
+
+Methods Covered:
+
+json.loads()
+in operator
+
+17. Add a New Key to JSON Data
+
+Program: Write a Python program using the json module that reads employee data from employee.json, adds a new key named department, saves the file, and displays a success message.
+
+Methods Covered:
+
+json.load()
+json.dump()
+dictionary assignment
+
+18. Delete a Key from JSON Data
+
+Program: Write a Python program using the json module that reads employee data from employee.json, removes the key age, saves the updated file, and displays a confirmation message.
+
+Methods Covered:
+
+json.load()
+del
+json.dump()
+
+19. Update an Existing Value in JSON
+
+Program: Write a Python program using the json module that reads employee information from employee.json, changes the value of the city key to Bengaluru, saves the file, and prints a success message.
+
+Methods Covered:
+
+json.load()
+json.dump()
+dictionary assignment
+
+20. Display All Keys and Values in JSON
+
+Program: Write a Python program using the json module that reads employee data from employee.json and displays all keys and values in the format key : value.
+
+Methods Covered:
+
+json.load()
+dictionary.items()
+
+
+These questions follow the same beginner-friendly style as your ConfigParser module questions and focus on the core JSON methods: dumps(), loads(), dump(), load(), along with common operations such as add, update, delete, search, and display.
