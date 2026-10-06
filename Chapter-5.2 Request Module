@@ -1,0 +1,186 @@
+1. Check Website Status Code
+
+Program: Write a Python program using the requests and argparse modules that accepts a URL as a command-line argument and displays its HTTP status code.
+
+Modules Covered:
+
+requests.get()
+argparse.ArgumentParser()
+add_argument()
+parse_args()
+2. Fetch Website Content
+
+Program: Write a Python program that accepts a URL as an argument and displays the first 500 characters of the webpage.
+
+Modules Covered:
+
+requests.get()
+response.text
+argparse
+3. Check Multiple URLs
+
+Program: Write a Python program that accepts multiple URLs using command-line arguments and displays the status code for each URL.
+
+Modules Covered:
+
+argparse nargs="+"
+requests.get()
+4. Download a Web Page
+
+Program: Write a Python program that accepts a URL and output filename as arguments and saves the webpage content into the file.
+
+Modules Covered:
+
+argparse
+requests.get()
+response.text
+5. Display Response Headers
+
+Program: Write a Python program that accepts a URL as an argument and displays all HTTP response headers.
+
+Modules Covered:
+
+requests.get()
+response.headers
+argparse
+6. Check Redirection URL
+
+Program: Write a Python program that accepts a URL as input and displays the final URL after all redirects.
+
+Modules Covered:
+
+requests.get()
+response.url
+argparse
+7. Measure Website Response Time
+
+Program: Write a Python program that accepts a URL as an argument and displays the time taken to receive a response.
+
+Modules Covered:
+
+requests.get()
+response.elapsed
+argparse
+8. Verify Website Reachability
+
+Program: Write a Python program that accepts a URL and reports whether the website is reachable.
+
+Modules Covered:
+
+requests.get()
+requests.exceptions.RequestException
+argparse
+9. Send Custom User-Agent
+
+Program: Write a Python program that accepts a URL and sends a custom User-Agent header while making the request.
+
+Modules Covered:
+
+requests.get(headers=...)
+argparse
+10. Download an Image
+
+Program: Write a Python program that accepts an image URL and output filename as arguments and downloads the image.
+
+Modules Covered:
+
+requests.get()
+response.content
+argparse
+11. Get JSON Data from API
+
+Program: Write a Python program that accepts an API URL and displays the JSON response.
+
+Modules Covered:
+
+requests.get()
+response.json()
+argparse
+12. Pretty Print JSON Response
+
+Program: Write a Python program that accepts an API URL and displays the JSON response in a readable format.
+
+Modules Covered:
+
+requests.get()
+response.json()
+argparse
+13. Check Content-Type
+
+Program: Write a Python program that accepts a URL and displays the Content-Type header.
+
+Modules Covered:
+
+requests.get()
+response.headers
+argparse
+14. Download API Response to File
+
+Program: Write a Python program that accepts an API URL and output filename and saves the API response to a file.
+
+Modules Covered:
+
+requests.get()
+argparse
+15. Send Query Parameters
+
+Program: Write a Python program that accepts a URL and query parameter value from the command line and sends a GET request.
+
+Modules Covered:
+
+requests.get(params=...)
+argparse
+16. POST Data to an API
+
+Program: Write a Python program that accepts username and email as command-line arguments and sends them to an API using a POST request.
+
+Modules Covered:
+
+requests.post()
+argparse
+17. Check SSL Certificate Validation
+
+Program: Write a Python program that accepts an HTTPS URL and reports whether the SSL connection was successful.
+
+Modules Covered:
+
+requests.get()
+requests.exceptions.SSLError
+argparse
+18. Display Status and Headers
+
+Program: Write a Python program that accepts a URL and displays both the HTTP status code and all response headers.
+
+Modules Covered:
+
+requests.get()
+response.status_code
+response.headers
+argparse
+19. Add Request Timeout
+
+Program: Write a Python program that accepts a URL and timeout value as arguments and performs the request with the specified timeout.
+
+Modules Covered:
+
+requests.get(timeout=...)
+argparse
+20. Website Information Tool
+
+Program: Write a Python program using the requests and argparse modules that accepts a URL as a command-line argument and displays:
+
+Status Code
+Final URL
+Content-Type
+Response Time
+Server Header
+
+Modules Covered:
+
+requests.get()
+response.status_code
+response.url
+response.headers
+response.elapsed
+argparse.ArgumentParser()
+parse_args()
